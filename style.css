@@ -1,0 +1,99 @@
+body{
+    text-align: center;
+   margin-top: 200px;
+   background:url(/images/basketballcourt.jpg);
+   background-size: cover;
+   color: #ffff;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.headings{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#home-title{
+    margin-right: 100px;
+}
+#guest-title{
+    margin-left: 100px;
+}
+
+.score-wrapper
+{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#home-score{
+    margin-right: 100px;
+    border: 10px solid white;
+    border-radius: 5px;
+    padding: 40px 50px;
+    background-color: white;
+    color: black;
+    font-size: 50px;
+}
+
+#guest-score{
+    margin-left: 100px;
+    border: 10px solid white;
+    border-radius: 5px;
+    padding: 40px 50px;
+    background-color: white;
+    color: black;
+    font-size: 50px;
+
+    
+}
+
+.points-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+
+}
+
+.home-wrapper
+{
+    margin-right: 100px;
+    
+    
+}
+
+#inc-by1,#inc-by2,#inc-by3{
+    border: 4px solid #ffff;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    background-color: orange;
+    color: #ffff;
+}
+
+#guest-incby1,#guest-incby2,#guest-incby3{
+    border: 4px solid #ffff;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    background-color: orange;
+    color: #ffff;
+}
+
+#clear-btn
+{
+    padding: 20px;
+    border: 4px solid #ffff;
+    border-radius: 5px;
+    background-color: orange;
+    color: #ffff;
+
+}
+
+.guest-wrapper
+{
+    margin-left: 100px;
+    
+}

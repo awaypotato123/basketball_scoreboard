@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="headings">
+        <h1 id="home-title">HOME</h1>
+        <h1 id="guest-title">GUEST</h1>
+    </div>
+
+    <div class="score-wrapper">
+        <div id="home-score">0</div>
+        <div id="guest-score">0</div>
+    </div>
+
+    <div class="points-wrapper">
+        <div class="home-wrapper">
+            <button id="inc-by1" onclick="home_inc_one()">+1</button>
+            <button id="inc-by2" onclick="home_inc_two()">+2</button>
+            <button id="inc-by3" onclick="home_inc_three()">+3</button>
+        </div>
+
+        <div class="guest-wrapper">
+            <button id="guest-incby1" onclick="guest_inc_one()">+1</button>
+            <button id="guest-incby2" onclick="guest_inc_two()">+2</button>
+            <button id="guest-incby3" onclick="guest_inc_three()">+3</button>
+        </div>
+    </div>
+
+    <button id="clear-btn" onclick="clearScores()">CLEAR</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
